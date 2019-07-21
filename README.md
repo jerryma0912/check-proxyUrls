@@ -1,8 +1,8 @@
 URL Check Übersicht Widget
 ==========================
-本插件利用[Ubersicht](http://tracesof.net/uebersicht/)软件，并在[check-urls.widget](http://tracesof.net/uebersicht-widgets/#check-urls)插件基础上进行修改，完成了一款用于mac端的，检测系统代理是否正常、并将结果显示于桌面上的插件。
+本插件利用[Ubersicht](http://tracesof.net/uebersicht/)软件，并在[check-urls.widget](http://tracesof.net/uebersicht-widgets/#check-urls)插件基础上进行修改，完成了一款用于mac端的、检测系统代理是否正常、并将结果显示于桌面上的插件。
 
-基本原理
+检测原理
 -------
 通过bash脚本，向url发起请求，如果返回`200`,则认定连通。
 
@@ -14,8 +14,14 @@ URL Check Übersicht Widget
 示例
 -------
 ![Example!](screenshot.png)
-To enable, place the `check-urls.widget` folder in your `Übersicht/widgets` directory.
 
-Usage
------
-Just edit the file `test.list` and put in the urls you want to monitor.
+安装方式
+-------
+1. 打开Ubersicht Widget文件夹
+2. 在该目录下新建文件夹`check-urls.widget`
+3. `git clone`本仓库，并将代码移动至上述文件夹中
+
+如何使用
+-------
+- 将需要在`本地网络`环境下检测的网址添加至`locallist.list`文件中。
+- 将需要在`代理网络`环境下检测的网址添加至`proxylist.list`文件中。
