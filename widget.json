@@ -1,7 +1,7 @@
 {
-    "name": "check-urls",
-    "description": "Display status of urls, see github @ ",
-    "author": "Stefan Jacobs, jerry modify",
-    "email": "stefan.jacobs@gmail.com, jerryma0912.student@sina.com"
+    "name": "check-proxy",
+    "description": "Display status of system proxy",
+    "author": "jerry",
+    "email": "mdjzjut@qq.com"
   }
   
