@@ -34,7 +34,7 @@ style: """
 
 command: "check-urls.widget/loop_list.sh check-urls.widget/locallist.list check-urls.widget/proxylist.list"
 
-refreshFrequency: 1000
+refreshFrequency: 5000
 
 render: -> """
 	<div>
