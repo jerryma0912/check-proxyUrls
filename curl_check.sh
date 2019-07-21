@@ -6,7 +6,7 @@ else
      SERVER=$(cat)
 fi
 
-STATUS=$(curl -L -s -o /dev/null -I -w "%{http_code}" $1)
+STATUS=$(curl -L -s -o /dev/null -I -w "%{http_code}" $1 --connect-timeout 3)
 
 
 if [ "${STATUS}" -eq "200" ]; then
