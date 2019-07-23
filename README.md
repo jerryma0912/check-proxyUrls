@@ -1,6 +1,11 @@
 Proxy Check Übersicht Widget
 ==========================
-本插件利用[Ubersicht](http://tracesof.net/uebersicht/)软件，并在[check-urls.widget](http://tracesof.net/uebersicht-widgets/#check-urls)插件基础上进行修改，完成了一款用于mac端的、检测系统代理是否正常、并将结果显示于桌面上的插件。
+
+简介
+-------
+1. 本插件是一款用于mac端的、检测系统代理是否正常、并将结果显示于桌面上的软件。
+2. 本插件在[check-urls.widget](http://tracesof.net/uebersicht-widgets/#check-urls)插件的基础上进行修改.
+3. 本插件的使用需要安装[Ubersicht](http://tracesof.net/uebersicht/)软件。
 
 检测原理
 -------
