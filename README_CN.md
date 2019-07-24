@@ -13,14 +13,14 @@ Proxy Check Übersicht Widget
 
 环境要求
 -------
-1. 安装ubersicht软件
-2. 安装代理软件(ssr,easyConnect...)
+1. 安装ubersicht软件。
+2. 安装代理软件(ssr,easyConnect...)。
 
 安装方式
 -------
-1. 打开Ubersicht Widget文件夹
-2. 在该目录下新建文件夹`check-urls.widget`
-3. `git clone`本仓库，并将代码移动至上述文件夹中
+1. 打开Ubersicht Widget文件夹。
+2. 在该目录下新建文件夹`check-urls.widget`。
+3. `git clone`本仓库，并将代码移动至上述文件夹中。
 
 如何使用
 -------
