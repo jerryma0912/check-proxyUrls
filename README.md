@@ -19,8 +19,7 @@ Environmental requirements
 Installation method
 -------
 1. Open the Ubersicht Widget folder.
-2. Create a new folder `check-urls.widget` in this directory.
-3. `git clone` this repository and move the code to the above folder.
+2. `git clone` this repository and move the code to the above folder.
 
 How to use
 -------
